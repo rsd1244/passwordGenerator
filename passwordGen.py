@@ -65,7 +65,8 @@ else:
     # list comprehension version.
     # ''.join(random.choice(charset) for x in range(password_length))
 
-    # Here we loop through the length of the reqested password and append the password varible with a random choice of chars
+    # Here we loop through the length of the requested password and append the password variable with a random choice
+    # of chars
     for x in range(password_length):
         password += random.choice(charset)
 
